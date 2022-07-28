@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
 
   :focus {
     outline: none;
-    box-shadow: 0 0 0 2px ${({ theme }) => theme["primary-base"]};
+    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors["primary-base"]};
   }
 
   html {
@@ -19,8 +19,8 @@ export const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
   }
 
   body {
-    background: ${({ theme }) => theme["gray-600"]};
-    color: ${({ theme }) => theme["gray-200"]};
+    background: ${({ theme }) => theme.colors["gray-600"]};
+    color: ${({ theme }) => theme.colors["gray-200"]};
     -webkit-font-smoothing: antialiased;
   }
 
