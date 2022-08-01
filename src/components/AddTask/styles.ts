@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AddTaskContainer = styled.form`
+export const AddTaskForm = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
