@@ -10,7 +10,7 @@ export const AddTaskForm = styled.form`
     width: 100%;
     height: 5.6rem;
     min-width: 8rem;
-    max-width: 72rem;
+    max-width: 67.2rem;
     padding: 1.6rem;
     border-radius: 0.8rem;
     border: none;
