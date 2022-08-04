@@ -31,18 +31,18 @@ export const AddTaskForm = styled.form`
     border-radius: 0.8rem;
     border: none;
 
-    background-color: ${({ theme }) => theme.colors["secondary-base"]};
+    background-color: ${({ theme }) => theme.colors["secondary-dark"]};
     color: ${({ theme }) => theme.colors["gray-100"]};
     font-weight: bold;
 
-    transition: background-color 0.1s ease-in-out;
+    transition: all 0.125s ease-in-out;
 
     &:focus {
       box-shadow: 0 0 0 2px ${({ theme }) => theme.colors["gray-100"]};
     }
 
     &:hover {
-      background-color: ${({ theme }) => theme.colors["secondary-dark"]};
+      background-color: ${({ theme }) => theme.colors["secondary-base"]};
       cursor: pointer;
     }
   }
