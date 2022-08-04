@@ -2,16 +2,14 @@ import { FormEvent, ReactElement, useState } from "react";
 import { PlusCircle } from "phosphor-react";
 import { v4 as uuid } from "uuid";
 
-import { useLocalStorage } from "hooks/useLocalStorage";
+import { useTasksContext } from "contexts/TasksContext";
 import { AddTaskForm } from "components/AddTask/styles";
 
 export const AddTask = (): ReactElement => {
+  const { tasks: storedTasks, setTasks } = useTasksContext();
+
   const [newTaskDescription, setNewTaskDescription] =
     useState<Task["description"]>("");
-  const [storedTasks, setTasks] = useLocalStorage<Task[]>(
-    "@todo:tasks-state-1.0.0",
-    []
-  );
 
   const handleCreateTask = (event: FormEvent): void => {
     event.preventDefault();
@@ -37,7 +35,7 @@ export const AddTask = (): ReactElement => {
         value={newTaskDescription}
         onChange={({ target }) => setNewTaskDescription(target.value)}
       />
-      <button type="submit">
+      <button type="submit" title="Add task">
         <PlusCircle size={32} />
       </button>
     </AddTaskForm>

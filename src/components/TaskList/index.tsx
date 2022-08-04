@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
 import { Task } from "components/Task";
-import { useLocalStorage } from "hooks/useLocalStorage";
+import { useTasksContext } from "contexts/TasksContext";
 import {
   Amount,
   MainContainer,
@@ -10,7 +10,7 @@ import {
 } from "components/TaskList/styles";
 
 export const TaskList = (): ReactElement => {
-  const [tasks] = useLocalStorage<Task[]>("@todo:tasks-state-1.0.0", []);
+  const { tasks } = useTasksContext();
 
   const tasksAmount = tasks.length;
   const doneTasksAmount = tasks.filter((task) => task.completed).length;
