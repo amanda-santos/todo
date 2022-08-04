@@ -10,7 +10,7 @@ export const TaskContainer = styled.div`
   background-color: ${({ theme }) => theme.colors["gray-500"]};
   width: 100%;
   max-width: 73.6rem;
-  height: 7.2rem;
+  min-height: 7.2rem;
 
   border-radius: 0.8rem;
   border: 1px solid ${({ theme }) => theme.colors["gray-400"]};

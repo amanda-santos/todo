@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-export const TaskCheckbox = styled.span`
+type TaskCheckboxProps = {
+  $isCompleted: boolean;
+};
+
+export const TaskCheckbox = styled.span<TaskCheckboxProps>`
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -8,12 +12,15 @@ export const TaskCheckbox = styled.span`
 
   width: 100%;
   max-width: 92%;
-  box-sizing: border-box;
 
   label {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    cursor: pointer;
+    ${({ $isCompleted }) =>
+      $isCompleted &&
+      css`
+        text-decoration: line-through;
+        color: ${({ theme }) => theme.colors["gray-300"]};
+      `}
   }
 
   input {
