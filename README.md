@@ -20,7 +20,9 @@
 
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;
 </p>
@@ -30,6 +32,12 @@
 <p>This is a to-do app where you can add all of your tasks! Fully responsive and available in English 🇬🇧. 
 <br />
 Developed as part of Ignite React (Rocketseat) 🚀
+</p>
+
+## 🎨 Layout
+
+<p>
+  Click <a href="https://www.figma.com/file/wGXf9XbwF2g2Yu8cYQJNjF/ToDo-List-(Copy)?node-id=56%3A99">here</a> to check the layout on Figma.
 </p>
 
 ## 👩🏻‍💻 Technologies
@@ -43,16 +51,16 @@ Technologies used to develop this project:
 - Phosphor React Icons
 - Immer
 
-## ⌨ Getting started
-
-- Run `npm i` or `yarn` to install the dependencies
-- Run the development server with `npm run dev` or `yarn dev`
-
 ## 🖥 Preview
 
 
 
 Click <a href="https://todo-amanda-santos.vercel.app/">here</a> to see it live 📺
+
+## ⌨ Getting started
+
+- Run `npm i` or `yarn` to install the dependencies
+- Run the development server with `npm run dev` or `yarn dev`
 
 ## 🤔 How to contribute
 
