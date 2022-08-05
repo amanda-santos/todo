@@ -55,6 +55,10 @@ Technologies used to develop this project:
 
 
 
+https://user-images.githubusercontent.com/49074930/183223641-d3c4976e-2518-4c69-814d-1a0d3fe74e2e.mp4
+
+
+
 Click <a href="https://todo-amanda-santos.vercel.app/">here</a> to see it live 📺
 
 ## ⌨ Getting started
