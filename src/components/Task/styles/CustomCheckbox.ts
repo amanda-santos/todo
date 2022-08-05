@@ -9,8 +9,8 @@ export const CustomCheckbox = styled.button`
   position: relative;
   cursor: pointer;
   border-radius: 100%;
-  border: 2px solid ${({ theme }) => theme.colors["primary-base"]};
-  box-shadow: 0px 0px 0px 0px ${({ theme }) => theme.colors["primary-base"]}
+  border: 2px solid ${({ theme }) => theme.colors["primary-dark"]};
+  box-shadow: 0px 0px 0px 0px ${({ theme }) => theme.colors["primary-dark"]}
     inset;
   transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
 

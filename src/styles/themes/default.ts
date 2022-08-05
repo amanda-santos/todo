@@ -1,10 +1,10 @@
 export const defaultTheme = {
   colors: {
-    "primary-base": "#8284FA",
-    "primary-dark": "#5E60CE",
+    "primary-base": "#A277FF",
+    "primary-dark": "#674D9C",
 
-    "secondary-base": "#4EA8DE",
-    "secondary-dark": "#1E6F9F",
+    "secondary-base": "#3ABE92",
+    "secondary-dark": "#207559",
 
     "danger-base": "#E25858",
 
